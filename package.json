@@ -1,0 +1,30 @@
+{
+  "name": "106-strapi-wild",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.14.0",
+    "@strapi/plugin-users-permissions": "4.14.0",
+    "@strapi/plugin-i18n": "4.14.0",
+    "mysql": "2.18.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "25ef464f-f6e8-496e-aae5-94d54089c88a"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
