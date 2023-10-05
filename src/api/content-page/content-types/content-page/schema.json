@@ -1,10 +1,11 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "content_pages",
   "info": {
     "singularName": "content-page",
     "pluralName": "content-pages",
-    "displayName": "contentPage"
+    "displayName": "contentPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,9 +17,6 @@
     },
     "content": {
       "type": "richtext"
-    },
-    "lastUpdate": {
-      "type": "date"
     }
   }
 }
