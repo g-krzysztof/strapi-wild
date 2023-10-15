@@ -691,6 +691,7 @@ export interface ApiContentPageContentPage extends Schema.CollectionType {
   attributes: {
     title: Attribute.String;
     content: Attribute.RichText;
+    slug: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
